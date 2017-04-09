@@ -1,0 +1,24 @@
+.header
+{
+	background-image:url('./../../img/jojoheader.jpg');
+	background-size:cover;
+	padding:5vw;
+	p:first-child
+	{
+		color:#d80a86;
+	font-size:20vw;
+	text-align:center;
+	text-shadow: 10px 10px 4px black;
+	}
+	p:nth-child(2)
+	{
+	color:red;
+	font-size:12vw;
+	text-shadow:0 0 10px #fff;
+	margin-left:20vw;
+	}
+}
+p
+{
+	font-family:"Triforce";
+}

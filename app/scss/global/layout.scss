@@ -1,0 +1,13 @@
+@mixin font-face($font-family, $file-path, $font-weight, $font-style){
+	@font-face{
+		font-family:$font-family;
+		src: url('../fonts/#{$file-path}.eot');
+		src: url('../fonts/#{$file-path}.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/#{$file-path}.woff') format('woff'),
+			 url('../fonts/#{$file-path}.ttf') format('truetype');
+		font-weight:$font-weight;
+		font-style:$font-style;
+	}
+}
+
+@include font-face(Triforce,Triforce,normal,normal);
